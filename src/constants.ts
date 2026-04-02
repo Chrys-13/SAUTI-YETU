@@ -8,6 +8,7 @@ export const TRAINING_MODULES: TrainingModule[] = [
     videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ", // Placeholder
     duration: "2min",
     completed: false,
+    isDownloaded: false,
     quiz: {
       questionSw: "Haki yako ya msingi ni nini?",
       questionEn: "What is your basic right?",
@@ -23,6 +24,7 @@ export const TRAINING_MODULES: TrainingModule[] = [
     videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     duration: "3min",
     completed: false,
+    isDownloaded: false,
     quiz: {
       questionSw: "Nani anaruhusiwa kuwepo kituoni?",
       questionEn: "Who is allowed at the station?",

@@ -10,7 +10,7 @@ export interface Report {
     lat: number;
     lng: number;
   };
-  media?: string; // base64 for now
+  media?: string[]; // Array of base64 strings
 }
 
 export interface TrainingModule {
@@ -18,6 +18,8 @@ export interface TrainingModule {
   titleSw: string;
   titleEn: string;
   videoUrl: string;
+  localVideoUrl?: string;
+  isDownloaded: boolean;
   duration: string;
   completed: boolean;
   quiz: {
