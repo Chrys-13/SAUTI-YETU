@@ -1,0 +1,8 @@
+{
+  "name": "Sauti Yetu",
+  "description": "An offline-first civic monitoring app for Tanzanian youth to document electoral irregularities and access civic education.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}
